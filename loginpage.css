@@ -1,0 +1,109 @@
+.appclick-logo {
+    padding-left: 40px;
+    justify-content: space-between;
+    display: flex;
+   
+}
+.Logo{
+    width: 150px;
+    height: 80px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.login-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 0px;
+    font-family: roboto;
+    margin-left: 20px;
+
+}
+.password{
+    margin-top: 15px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: roboto;
+    position: relative;
+   margin-left: 15px;
+   padding-right: 50px;
+   border: 1px solid #dfdfdf;
+   background: transparent;
+   padding-left: 1.0rem;
+    position: relative;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.username{
+margin-top: 5%;
+    height: 36px;
+    border-radius: 4px;
+    font-family: roboto;
+    position: relative;
+   margin-left: 15px;
+   padding-right: 50px;
+   border: 1px solid #dfdfdf;
+   background: transparent;
+    padding-left: 1.0rem;
+    position: relative;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.username:hover{
+    border-color: green;
+    outline: none;
+}
+.right-div{
+    float: right;
+    margin-right: 100px;
+    margin-top: -200px;
+}
+.Sign-in-btn{
+    margin-top: 10px;
+    width: 255px;
+    height: 46px;
+    border-radius: 4px;
+    background-color:#35aa47;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: roboto;
+    font-size: 16px;
+}
+.profile-img{
+height: 900px;
+width: 1000px;
+margin-left: 20px;
+padding-left: 65px;
+}
+.Forgot{
+    margin-top: 15px;
+    color: #35aa47;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: roboto;
+    margin-left: 20px;
+    position: relative;
+}
+.fa-envelope{
+    position: absolute;
+    margin-left:245px;
+    margin-top: 27px;
+    color: #888;
+}
+.fa-lock{
+    position: absolute;
+    margin-left:245px;
+    margin-top: 25px;
+    color: #888;
+}
+.fa-key-skeleton{
+    position: absolute;
+    margin-left:3000px;
+    margin-top: 5px;
+    color: #35aa47;
+}
+

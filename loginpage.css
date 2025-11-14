@@ -58,7 +58,7 @@ margin-top: 5%;
     margin-right: 100px;
     margin-top: -200px;
 }
-.Sign-in-btn{
+.signin{
     margin-top: 10px;
     width: 255px;
     height: 46px;
@@ -68,10 +68,13 @@ margin-top: 5%;
     font-size: 16px;
     font-weight: 500;
     border: none;
-    cursor: pointer;
     margin-left: 15px;
     font-family: roboto;
     font-size: 16px;
+}
+.signin:hover{
+    background-color:gray;
+    cursor: pointer;
 }
 .profile-img{
 height: 900px;
@@ -106,4 +109,31 @@ padding-left: 65px;
     margin-top: 5px;
     color: #35aa47;
 }
+.log{
+   background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 190px;
+margin-top: 10px;
+}
+.create{
+    width: 150px;
+    height: 40px;
+    margin-left: 240px;
+    border-radius: 30px;
+    background-color: #28a745;
+    color: white;
+}
+.create:hover{
+    background-color: gray;
+}
+@media (max-width: 600px){
+    .right-div{
+        flex-direction: column;
+    }
+}
+
 
